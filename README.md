@@ -1,13 +1,26 @@
+# Part four optuna to find the best hyper parameters. 
 
-# Part four optuna to find the best solution 
+Best Hyperparameters (Optuna)
+
+Number of trials: 40
+
+Best Trial (28):
+
+| Hyperparameter      | Value   |
+| ------------------- | ------- |
+| learning\_rate      | 0.1056  |
+| max\_iter           | 700     |
+| max\_depth          | 8       |
+| min\_samples\_leaf  | 9       |
+| l2\_regularization  | 0.02594 |
+| max\_bins           | 222     |
+| n\_iter\_no\_change | 50      |
 
 | Setting              | MSE       | RMSE     | MAE      | R²           |
 | -------------------- | --------- | -------- | -------- | ------------ |
 | **Best CV (Optuna)** | –         | **8.36** | –        | –            |
 | Holdout (Raw)        | 45.93     | 6.78     | 2.59     | 0.999694     |
 | Holdout (With Rule)  | **44.39** | **6.66** | **2.47** | **0.999704** |
-
-
 
 # Part three find the best model
 

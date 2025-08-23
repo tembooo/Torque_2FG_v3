@@ -1,3 +1,16 @@
+
+# Part four optuna to find the best solution 
+
+| Setting              | MSE       | RMSE     | MAE      | R²           |
+| -------------------- | --------- | -------- | -------- | ------------ |
+| **Best CV (Optuna)** | –         | **8.36** | –        | –            |
+| Holdout (Raw)        | 45.93     | 6.78     | 2.59     | 0.999694     |
+| Holdout (With Rule)  | **44.39** | **6.66** | **2.47** | **0.999704** |
+
+
+
+# Part three find the best model
+
 | Model          | MSE       | RMSE     | MAE      | R²          | CV R² mean | CV R² std | CV MAE mean | CV RMSE mean |
 | -------------- | --------- | -------- | -------- | ----------- | ---------- | --------- | ----------- | ------------ |
 | RandomForest   | 115.60    | 10.75    | 3.38     | 0.99923     | 0.99903    | 0.00023   | 3.69        | 11.94        |

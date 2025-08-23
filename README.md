@@ -1,13 +1,17 @@
----
-# Paert Two: investigating the features. 
+
+# Part Two: Investigating the Features
 
 ## 📈 Results & Analysis
 
-Below is a sample visualization of torque vs input features: (current is F9) 
+Below is a sample visualization of torque vs. input features.  
+*(Note: “F9” refers to the **Current** feature in the plot.)*
 
-![Torque vs Features](https://github.com/tembooo/Torque_2FG_v3/blob/main/pic1.Torque_vs_Features.png)
+<p align="center">
+  <img src="https://github.com/tembooo/Torque_2FG_v3/blob/main/pic1.Torque_vs_Features.png" width="700" alt="Torque vs Features">
+</p>
 
-Based on the picture we cas see that Current has an impact on all of the features as well. 
+**Observation:** The plot indicates that **current** shows a strong relationship with **torque**, and it also appears correlated with several other features.  
+We will quantify these relationships next (e.g., correlation coefficients, permutation importance, and model-based feature importance).
 
 ---
 

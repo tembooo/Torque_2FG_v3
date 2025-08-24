@@ -1,4 +1,16 @@
-# Part four optuna to find the best hyper parameters. 
+#part five Continuous Regression  and baseline is HistGBR
+there is difference between "Continuous Regression" and "Stepwise Regression with Trees" so for this project we need to use 
+
+| Model             | MSE     | RMSE  | MAE   | R²      |
+| ----------------- | ------- | ----- | ----- | ------- |
+| **HistGBR\_raw**  | 41.21   | 6.42  | 2.61  | 0.99973 |
+| **HistGBR\_rule** | 38.62   | 6.21  | 2.29  | 0.99974 |
+| **Linear**        | 2865.72 | 53.53 | 37.31 | 0.98092 |
+| **Polynomial**    | 968.98  | 31.13 | 18.84 | 0.99355 |
+but the performance of the HistGBR still is better and we used the optuna as well but result is not good. 
+
+
+# Part three optuna to find the best hyper parameters. 
 
 Best Hyperparameters (Optuna)
 

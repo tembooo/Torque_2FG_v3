@@ -8,9 +8,9 @@ there is difference between "Continuous Regression" and "Stepwise Regression wit
 | **Linear**        | 2865.72 | 53.53 | 37.31 | 0.98092 |
 | **Polynomial**    | 968.98  | 31.13 | 18.84 | 0.99355 |
 but the performance of the HistGBR still is better and we used the optuna as well but result is not good. 
+so based on this result I decided to establish new neural network (Mlp) I hope that would be better result. 
 
-
-# Part three optuna to find the best hyper parameters. 
+# Part 3.2 optuna to find the best hyper parameters. 
 
 Best Hyperparameters (Optuna)
 
@@ -34,7 +34,7 @@ Best Trial (28):
 | Holdout (Raw)        | 45.93     | 6.78     | 2.59     | 0.999694     |
 | Holdout (With Rule)  | **44.39** | **6.66** | **2.47** | **0.999704** |
 
-# Part three find the best model
+# Part 3.1 find the best model
 
 | Model          | MSE       | RMSE     | MAE      | R²          | CV R² mean | CV R² std | CV MAE mean | CV RMSE mean |
 | -------------- | --------- | -------- | -------- | ----------- | ---------- | --------- | ----------- | ------------ |

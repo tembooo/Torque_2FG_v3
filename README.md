@@ -46,6 +46,9 @@ Result of optuna :
 
 so the best trail is : 33 
 and we investigated : 40 difference combinations .
+<p align="center">
+  <img src="https://github.com/tembooo/Torque_2FG_v3/blob/main/pic4.optunaforMLP.jpg" width="700" alt="Torque vs Features">
+</p>
 
 
 

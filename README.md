@@ -60,6 +60,12 @@ Below is a sample visualization of torque vs. input features.
 **Observation:** The plot indicates that **current** shows a strong relationship with **torque**, and it also appears correlated with several other features.  
 We will quantify these relationships next (e.g., correlation coefficients, permutation importance, and model-based feature importance).
 
+
+and we can see the most important feateures for this modeling is "current". 
+<p align="center">
+  <img src="https://github.com/tembooo/Torque_2FG_v3/blob/main/pic2.feature_importance.png" width="700" alt="Torque vs Features">
+</p>
+
 ---
 
 # Paert one: Torque_2FG_v3

@@ -8,6 +8,27 @@ there is difference between "Continuous Regression" and "Stepwise Regression wit
 | **Linear**        | 2865.72 | 53.53 | 37.31 | 0.98092 |
 | **Polynomial**    | 968.98  | 31.13 | 18.84 | 0.99355 |
 
+- **HistGBR (Histogram-based Gradient Boosting Regressor)**  
+  - Achieves the **best performance**, with extremely high R² (~0.9997).  
+  - Very low errors (MAE ≈ 2.3–2.6, RMSE ≈ 6.2).  
+  - Captures the nonlinear relationship between F9 and Torque very effectively.  
+
+- **Linear Regression**  
+  - R² = 0.98, but high errors (MAE ≈ 37, RMSE ≈ 53).  
+  - Too simplistic, fails to model the nonlinear dynamics.  
+
+- **Polynomial Regression**  
+  - R² = 0.9936, but still higher errors (MAE ≈ 18.8, RMSE ≈ 31.1) compared to boosting.  
+  - Deviates from actual data at certain ranges.  
+
+
+Gradient boosting (HistGBR) provides the **most accurate and reliable torque predictions**.  
+Linear regression is insufficient, and polynomial regression only partially improves performance but still falls short compared to boosting.
+<p align="center">
+  <img src="https://github.com/tembooo/Torque_2FG_v3/blob/main/pic3.Polynomial.png" width="700" alt="Torque vs Features">
+</p>
+
+
 but the performance of the HistGBR still is better and we used the optuna as well but result is not good. 
 
 so based on this result I decided to establish new neural network (Mlp) I hope that would be better result. 

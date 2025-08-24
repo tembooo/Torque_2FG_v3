@@ -1,4 +1,4 @@
-# part Four Continuous Regression  and baseline is HistGBR
+# Part Four Continuous Regression  and baseline is HistGBR
 there is difference between "Continuous Regression" and "Stepwise Regression with Trees" so for this project we need to use 
 
 | Model             | MSE     | RMSE  | MAE   | R²      |

@@ -1,4 +1,12 @@
 # Part Five MLP instead of the simple regression 
+the result with the mlp: 
+| Metric   | Value   |
+| -------- | ------- |
+| **MSE**  | 42.21   |
+| **RMSE** | 6.50    |
+| **MAE**  | 2.84    |
+| **R²**   | 0.99972 |
+
 
 Result of optuna : 
 | trial | value | n_layers | n_units | dropout_rate | lr | batch_size |

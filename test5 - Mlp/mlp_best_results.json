@@ -1,0 +1,24 @@
+{
+  "metrics": {
+    "MSE": 42.21153660884898,
+    "RMSE": 6.49704060390952,
+    "MAE": 2.843204246979515,
+    "R2": 0.9997189751006416
+  },
+  "params": {
+    "n_layers": 3,
+    "n_units": 256,
+    "dropout_rate": 0.07481716510687292,
+    "lr": 0.0003997881215363161,
+    "batch_size": 64
+  },
+  "paths": {
+    "predictions": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\predictions_mlp_best.xlsx",
+    "model": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\best_mlp_model.keras",
+    "scaler_X": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\scaler_X.joblib",
+    "scaler_y": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\scaler_y.joblib",
+    "parity_png": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\parity_mlp_best.png",
+    "residuals_png": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\residuals_mlp_best.png",
+    "f9_png": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\actual_vs_pred_F9_mlp_best.png"
+  }
+}

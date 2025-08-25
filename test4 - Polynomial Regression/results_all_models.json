@@ -1,0 +1,49 @@
+{
+  "best_params_histgbr": {
+    "learning_rate": 0.11979206740995899,
+    "max_iter": 900,
+    "max_depth": 11,
+    "min_samples_leaf": 16,
+    "l2_regularization": 0.003062683763713968,
+    "max_bins": 189,
+    "n_iter_no_change": 47
+  },
+  "metrics": {
+    "HistGBR_raw": {
+      "MSE": 41.20743222382488,
+      "RMSE": 6.419301537069659,
+      "MAE": 2.6054487276633345,
+      "R2": 0.9997256599635111
+    },
+    "HistGBR_rule": {
+      "MSE": 38.62380070333987,
+      "RMSE": 6.214804961005604,
+      "MAE": 2.2921813088175806,
+      "R2": 0.9997428605879459
+    },
+    "Linear": {
+      "MSE": 2865.7192081596054,
+      "RMSE": 53.53241268763818,
+      "MAE": 37.31271926882734,
+      "R2": 0.9809213661297097
+    },
+    "Polynomial": {
+      "MSE": 968.9763533233445,
+      "RMSE": 31.12838500988036,
+      "MAE": 18.844506672112217,
+      "R2": 0.9935490033282439
+    }
+  },
+  "paths": {
+    "predictions": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\predictions_all_models.xlsx",
+    "model_histgbr_raw": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\best_histgbr_optuna.joblib",
+    "model_histgbr_rule": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\best_histgbr_with_rule.joblib",
+    "linear": "linear_reg.joblib",
+    "poly": "poly_reg.joblib",
+    "parity_png": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\parity_histgbr_optuna.png",
+    "residuals_png": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\residuals_histgbr_optuna.png",
+    "f9_png": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\actual_vs_pred_F9.png",
+    "fi_png": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\feature_importance.png",
+    "fi_csv": "C:\\12.LUT\\00.Termic Cources\\0.Finished\\Arash\\4.4th project\\M1.Torque_2FG_v3\\feature_importance.csv"
+  }
+}

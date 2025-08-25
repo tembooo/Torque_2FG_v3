@@ -1,0 +1,1 @@
+Trial 1 - MSE: 354.871565 - Params: {'units1': 96, 'units2': 80, 'learning_rate': 1.9402816787026006e-05}

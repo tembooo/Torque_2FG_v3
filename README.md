@@ -1,3 +1,29 @@
+
+
+# MLP Benchmark Results (Ld-Lq)
+
+| Metric | Value |
+|--------|-------------------------|
+| **MSE** | 5.5649e-11 |
+| **RMSE** | 7.4598e-06 |
+| **MAE** | 2.0579e-06 |
+| **R²** | 0.999643 |
+
+📌 Best model saved at:  
+`C:\12.LUT\00.Termic Cources\0.Finished\Arash\4.4th project\M1.Torque_2FG_v3\Torque_2FG_v3\test6 - Ld-LQ\best_mlp_model_LdLq.keras`
+
+📌 Predictions file:  
+`predictions_mlp_best_LdLq.xlsx`
+
+📌 Scalers:  
+- `scaler_X_LdLq.joblib`  
+- `scaler_Y_LdLq.joblib`
+
+📌 Full results JSON:  
+`mlp_best_results_LdLq.json`
+
+
+
 # Part Five MLP for LD - LQ 
 
 **Data target:** `Ld-Lq`  

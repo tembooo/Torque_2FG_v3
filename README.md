@@ -3,6 +3,9 @@
 **Data target:** `Ld-Lq`  
 **Features:** `F1..F10`
 
+<p align="center">
+  <img src="https://github.com/tembooo/Torque_2FG_v3/blob/main/pic5-best optuna ld-lq.png" width="700" alt="Torque vs Features">
+</p>
 Best Hyperparameters
 
 | n_layers | n_units | dropout_rate | lr | batch_size |
@@ -129,7 +132,6 @@ and we investigated : 40 difference combinations .
 <p align="center">
   <img src="https://github.com/tembooo/Torque_2FG_v3/blob/main/pic4.optunaforMLP.jpg" width="700" alt="Torque vs Features">
 </p>
-
 
 
 

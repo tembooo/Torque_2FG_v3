@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://github.com/tembooo/Torque_2FG_v3/blob/main/pic6.simplify the model.jpg" width="700" alt="Torque vs Features">
+</p>
+
+
 # Optuna Optimization – Simplified MLP Search Space 
 
 We simplified the model by narrowing the search space for Optuna:
